@@ -29,6 +29,8 @@ public class SetLearn {
         setStr.add("Elephant");
         setStr.add("ant");
         System.out.println(setStr);
+        System.out.println(setStr.hashCode());
+        System.out.println(setStr);
         System.out.println("------------------");
 
         Set<Integer> set2 = new LinkedHashSet<>();
